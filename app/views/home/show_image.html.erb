@@ -2,11 +2,17 @@
 <%= link_to 'Back', :back %>
 
 <br>
-<div>
+<div class='image-tag'>
 	<%= image_tag @image.split("\n").last, class: "img-responsive" %>
 </div>
 <style>
 	body {
 		background: burlywood;
+	}
+	.image-tag {
+		max-width: 500px;
+	}
+	.img-responsive {
+	    width: 100%;
 	}
 </style>

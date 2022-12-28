@@ -1,6 +1,6 @@
 <%= form_for(:uploaded_data_file, :url => edit_image_path , :remote => true, :html => {  id: "myForm", :multipart => true } ) do |f| %>
   <%= f.label "Upload" %><br />
-  <%= f.file_field :location %>
+  <%= f.file_field :photo, accept: 'image/png,image/jpeg' %>
 
   <%= f.button 'Image Edit'.html_safe, type: :submit, id: 'submit_btn', data: { disable_with: "<i class='fa fa-spinner fa-spin'></i> Image Processing..." } %>
 <% end %>

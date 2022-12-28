@@ -4,7 +4,7 @@ class HomeController < ApplicationController
 
   def edit_image
 
-    file_path = params[:uploaded_data_file][:location].path
+    file_path = params[:uploaded_data_file][:photo].path
 
     # execute python script
     @image = `python3 lib/assets/python/edit_image.py "#{file_path}"`
