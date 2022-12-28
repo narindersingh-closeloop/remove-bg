@@ -5,21 +5,22 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - ruby-3.0.0
 
-* System dependencies
+* Rails Version - 6.0.3
 
-* Configuration
+* Node Version - v14.21.2
 
-* Database creation
+* Database use - postgresql
 
-* Database initialization
+* Update Username Password in database.yml as your postgresql credentials.
 
-* How to run the test suite
+* Install Python3
+	- Install required module of python - (transparent_background) etc.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
 # remove-bg
+
+------------------------------------------------------
+# Converted Image is saved in Public folder in this path
+---- /public/edit_images/
